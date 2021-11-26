@@ -1,0 +1,94 @@
+:root {
+  --primary-color: #278fe4;
+  --secondary-color: #dbd6d6;
+}
+
+body {
+  background-color: #fff;
+}
+
+header {
+  padding: 20px 35px;
+  background-color: var(--secondary-color);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background-image: url("../images/hero-bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 80%;
+  z-index: 9999;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li a {
+  padding: 10px 15px;
+  font-weight: lighter;
+}
+
+.run-buddy {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.project {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+footer {
+  background: var(--secondary-color);
+  padding: 40px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+footer h2 {
+  color: var(--primary-color);
+  font-size: 40px;
+  margin: 0;
+}
+
+footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+footer li {
+  padding: 10px 15px;
+  font-weight: lighter;
+}
+
+h1 {
+  color: var(--primary-color);
+  font-family: "Courier New", Courier, monospace;
+}
+
+h2 {
+  color: var(--secondary-color);
+  text-align: center;
+}
+
+h3 {
+  color: var(--primary-color);
+  text-align: center;
+}
