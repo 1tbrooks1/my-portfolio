@@ -9,6 +9,6 @@ This website will be used to present my professional portfolio to show case my s
 https://1tbrooks1.github.io/my-portfolio/
 
 ## Contribution
-Made with ❤️&hearts by Tobby Brooks
+Made with ❤️ by Tobby Brooks
 
 
