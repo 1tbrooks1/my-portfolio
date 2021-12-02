@@ -2,13 +2,14 @@ body {
   background-color: blanchedalmond;
 }
 
+/* Start of Header */
+
+/* style the header*/
 .header-container {
   border: 5px solid;
   background-color: blanchedalmond;
   margin-bottom: 10px;
 }
-
-/* Start of Header */
 
 .header {
   border: solid 1px;
@@ -40,7 +41,7 @@ header nav ul {
 }
 
 p {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 22px;
 }
 
@@ -85,7 +86,6 @@ header nav ul li {
 }
 
 .container-pic {
-  
   display: flex;
   justify-content: center;
 }
@@ -96,7 +96,7 @@ header nav ul li {
   width: 300px;
   height: 300px;
   margin-right: 10px;
-  border-color:rgb(236, 176, 99);
+  border-color: rgb(236, 176, 99);
 }
 
 .container-about {
@@ -121,7 +121,6 @@ header nav ul li {
   position: relative;
 }
 
-
 h2 {
   color: black;
   text-align: center;
@@ -129,7 +128,7 @@ h2 {
 }
 
 .pic-header:hover {
-  color:rgb(236, 176, 99);
+  color: rgb(236, 176, 99);
 }
 
 .run-buddy h2 {
@@ -139,7 +138,7 @@ h2 {
 .run-buddy-pic {
   border-radius: 50px;
   border: 5px solid;
-  border-color: rgb(236, 176, 99); 
+  border-color: rgb(236, 176, 99);
   width: 900px;
   height: 400px;
 }
@@ -195,7 +194,7 @@ h2 {
 
 /* End of Project Section */
 
-/* Start of the Footer Section */
+/* Start of the Footer/Contact Section */
 .contact-header {
   border: 5px solid;
   border-bottom: 1px solid;
@@ -217,31 +216,30 @@ footer p {
 
 /* End of the Footer Section */
 
+/* Start of Media Query*/
+
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-@media screen and (max-width: 935px)  {
-  .run-buddy-pic, 
-  .other-pics, 
+@media screen and (max-width: 935px) {
+  .run-buddy-pic,
+  .other-pics,
   .other-pics-2 {
-    display:block;
+    display: block;
     margin: 0 auto;
     max-width: 95%;
   }
-  
+
   p {
     font-size: 2.5vw;
   }
-
 }
 
-
-
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
-@media screen and (max-width: 767px)  {
-  .run-buddy-pic, 
-  .other-pics, 
+@media screen and (max-width: 767px) {
+  .run-buddy-pic,
+  .other-pics,
   .other-pics-2,
   .profile-pic {
-    display:block;
+    display: block;
     margin: 0 auto;
     max-width: 95%;
   }
@@ -249,15 +247,14 @@ footer p {
   p {
     font-size: 2.5vw;
   }
-
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-  .run-buddy-pic, 
-  .other-pics, 
+  .run-buddy-pic,
+  .other-pics,
   .other-pics-2 {
-    display:block;
+    display: block;
     margin: 0 auto;
     max-width: 95%;
   }
@@ -265,5 +262,7 @@ footer p {
   p {
     font-size: 1.9vw;
   }
-
 }
+
+
+/* End of Media Query*/

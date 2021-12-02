@@ -11,6 +11,7 @@ This website will be used to present my professional portfolio to show case my s
 
 https://1tbrooks1.github.io/my-portfolio/
 
-## Contribution
+## Screenshot
+- ![Screenshot](portfolio-screenshot.JPG)
 
 Made with ❤️ by Tobby Brooks
