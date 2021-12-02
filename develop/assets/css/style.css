@@ -53,10 +53,13 @@ header nav ul li {
 .about-me-container {
   border: 5px solid;
   margin-bottom: 10px;
+  border-top: 1px solid;
 }
 
 .about-me-header {
-  background-color:rgb(236, 176, 99);
+  border: 5px solid;
+  border-bottom: 1px solid;
+  background-color: rgb(236, 176, 99);
 }
 
 .container-pic {
@@ -107,6 +110,7 @@ header nav ul li {
 h2 {
   color: black;
   text-align: center;
+  font-size: 40px;
 }
 
 .run-buddy h2 {
@@ -117,8 +121,8 @@ h2 {
   border-radius: 50px;
   border: 5px solid;
   border-color: rgb(236, 176, 99); 
-  width: 1100px;
-  height: 500px;
+  width: 900px;
+  height: 400px;
 }
 
 .other-projects {
@@ -174,3 +178,37 @@ footer p {
 }
 
 /* End of the Footer Section */
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 935px)  {
+  .run-buddy-pic, 
+  .other-pics, 
+  .other-pics-2 {
+    display:block;
+    margin: 0 auto;
+    max-width: 95%;
+  }
+}
+
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px)  {
+  .run-buddy-pic, 
+  .other-pics, 
+  .other-pics-2 {
+    display:block;
+    margin: 0 auto;
+    max-width: 95%;
+  }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+  .run-buddy-pic, 
+  .other-pics, 
+  .other-pics-2 {
+    display:block;
+    margin: 0 auto;
+    max-width: 95%;
+  }
+}
