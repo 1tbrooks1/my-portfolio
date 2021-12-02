@@ -21,8 +21,6 @@ header {
   flex-wrap: wrap;
 }
 
-
-
 header h1 {
   padding-left: 25px;
   padding-top: 13px;
@@ -39,6 +37,11 @@ header nav ul {
   list-style-type: none;
   padding-top: 10px;
   font-size: 30px;
+}
+
+p {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 22px;
 }
 
 a {
@@ -70,6 +73,9 @@ header nav ul li {
   border: 5px solid;
   margin-bottom: 10px;
   border-top: 1px solid;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .about-me-header {
@@ -79,8 +85,7 @@ header nav ul li {
 }
 
 .container-pic {
-  border: 1px solid;
-  border-top: 5px solid;
+  
   display: flex;
   justify-content: center;
 }
@@ -88,8 +93,8 @@ header nav ul li {
 .profile-pic {
   border-radius: 100%;
   border: 3px solid;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   margin-right: 10px;
   border-color:rgb(236, 176, 99);
 }
@@ -116,14 +121,6 @@ header nav ul li {
   position: relative;
 }
 
-.text-centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 50px;
-  color: black;
-}
 
 h2 {
   color: black;
@@ -178,6 +175,7 @@ h2 {
   width: 300px;
   height: 300px;
   border-radius: 50%;
+  margin-left: 80px;
 }
 
 .other-pics-2 {
@@ -228,18 +226,30 @@ footer p {
     margin: 0 auto;
     max-width: 95%;
   }
+  
+  p {
+    font-size: 2.5vw;
+  }
+
 }
 
 
+
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
-@media screen and (max-width: 768px)  {
+@media screen and (max-width: 767px)  {
   .run-buddy-pic, 
   .other-pics, 
-  .other-pics-2 {
+  .other-pics-2,
+  .profile-pic {
     display:block;
     margin: 0 auto;
     max-width: 95%;
   }
+
+  p {
+    font-size: 2.5vw;
+  }
+
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
@@ -251,4 +261,9 @@ footer p {
     margin: 0 auto;
     max-width: 95%;
   }
+
+  p {
+    font-size: 1.9vw;
+  }
+
 }
