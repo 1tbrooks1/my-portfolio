@@ -2,8 +2,8 @@ body {
   background-color: blanchedalmond;
 }
 
-.container {
-  border: solid 1px;
+.header-container {
+  border: 5px solid;
   background-color: blanchedalmond;
   margin-bottom: 10px;
 }
@@ -23,6 +23,7 @@ header {
 
 header h1 {
   padding-left: 25px;
+  padding-top: 13px;
   font-size: 36px;
 }
 
@@ -33,7 +34,7 @@ header nav ul {
   align-items: center;
   list-style-type: none;
   padding-top: 10px;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 header nav ul li {
@@ -43,9 +44,9 @@ header nav ul li {
 /* End of Header */
 
 /* Start of About Section */
-.container-about-primary {
-  border: 1px solid;
-  
+.about-me-container {
+  border: 5px solid;
+  margin-bottom: 10px;
 }
 
 .container-about-primary h2 {
@@ -56,6 +57,7 @@ header nav ul li {
 
 .container-pic {
   border: 1px solid;
+  border-top: 5px solid;
   display: flex;
   justify-content: center;
 }
@@ -75,13 +77,17 @@ header nav ul li {
 /* End of About Section */
 
 /* Start of Project Section */
-
+.project-header {
+  border: 5px solid;
+  
+}
 .container-card {
-  border: 1px solid;
-
+  border: 5px solid;
+  border-top: 1px solid;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  
 }
 
 h2 {
@@ -92,13 +98,16 @@ h2 {
   border-radius: 50px;
   width: 1100px;
   height: 500px;
+  margin-top: 5px;
 }
 
 .other-projects {
-  border: 1px solid;
+  border: 5px solid;
+  border-top: 1px solid;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin-bottom: 15px;
 }
 
 .other-pics {
@@ -111,8 +120,13 @@ h2 {
 /* End of Project Section */
 
 /* Start of the Footer Section */
-
+.contact-header {
+  border: 5px solid;
+  
+  border-bottom: 1px solid;
+}
 footer {
+  border: 5px solid;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -120,6 +134,7 @@ footer {
 
 footer p {
   margin: 50px 0 50px 0;
+  font-size: 24px;
 }
 
 /* End of the Footer Section */
